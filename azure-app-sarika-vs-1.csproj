@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_sarika_vs_1</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/cbcd426f-2ecd-40e6-b237-510d9e6e118f/resourceGroups/az-new-rg1/providers/microsoft.insights/components/az-webapp-sarika</ApplicationInsightsResourceId>
+    <UserSecretsId>1c6983cb-dc63-4df5-92c8-586e9fe27bac</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
