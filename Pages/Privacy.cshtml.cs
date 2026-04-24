@@ -13,6 +13,7 @@ namespace azure_app_sarika_vs_1.Pages
         }
         public void OnGet()
         {
+            throw new Exception("Testing Insights Exception Tracking");
         }
     }
 
